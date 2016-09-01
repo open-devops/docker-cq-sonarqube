@@ -1,3 +1,5 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/devopsopen/docker-cq-sonarqube/)
+
 # docker-cq-sonarqube
 Continuous Code Quality Management sonarqube Image for Open DevOps Pipeline
 
