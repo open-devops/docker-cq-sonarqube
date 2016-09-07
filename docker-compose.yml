@@ -1,0 +1,24 @@
+#
+# Sonarqube Docker Compose file for Open DevOps Pipeline
+#
+# VERSION : 1.0
+#
+version: '2'
+
+services:
+  jenkins:
+    image: devopsopen/docker-cq-sonarqube
+    ports:
+      - "9000:9000"
+    expose:
+      - "9092"
+    environment:
+      - JAVA_OPTS=-Dhttp.proxyHost=${http_proxy_host}
+                  -Dhttp.proxyPort=${http_proxy_port} 
+                  -Dhttps.proxyHost=${https_proxy_host} 
+                  -Dhttps.proxyPort=${https_proxy_port}
+                  -Duser.timezone=Asia/Shanghai
+    restart: never
+    volumes:
+      - /opt/sonarqube/data
+      - /opt/sonarqube/extensions
