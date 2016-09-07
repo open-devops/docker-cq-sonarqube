@@ -6,7 +6,7 @@
 version: '2'
 
 services:
-  jenkins:
+  sonarqube:
     image: devopsopen/docker-cq-sonarqube
     ports:
       - "9000:9000"
