@@ -1,0 +1,5 @@
+# continous quality assurance
+sonarqube:
+  image: devopsopen/docker-cq-sonarqube
+  ports:
+    - "19000:9000"

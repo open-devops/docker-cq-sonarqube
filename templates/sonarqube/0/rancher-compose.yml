@@ -1,0 +1,4 @@
+.catalog:
+  name: Soarqube Catalog
+  version: 1.0.0
+  description: OpenDevOps Sonarqube Catalog

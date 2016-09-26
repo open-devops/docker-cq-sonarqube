@@ -1,0 +1,8 @@
+name: OpenDevOps-Sonarqube
+description: |
+  Open DevOps Sonarqube Catalog
+version: 1.0.0
+category: CQ
+maintainer: open.devops@gmail.com
+license: Apache 2
+projectURL: https://github.com/open-devops/docker-cq-sonarqube
